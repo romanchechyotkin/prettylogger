@@ -1,4 +1,4 @@
-package main
+package prettylogger
 
 import (
 	"context"
@@ -59,3 +59,4 @@ func (h *PrettyHandler) Handle(ctx context.Context, r slog.Record) error {
 
 	return nil
 }
+
